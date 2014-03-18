@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CalculatorOfDeath
 {
-    public class Subtraction
+    public class Subtraction : IBinaryCalculator
     {
         public string Calculate(double firstArgument, double secondArgument)
     {
