@@ -11,7 +11,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("CalculatorOfDeath")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("mama zashitila")]
 [assembly: AssemblyCulture("")]
 
 // Параметр ComVisible со значением FALSE делает типы в сборке невидимыми 
