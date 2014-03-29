@@ -1,4 +1,4 @@
 ﻿Kolyan: sqrt, %, abs, bin, 4chnay, 8chnaya;
-Andrey: tg, ln, fact pi^n,pi/n,sqrt(a+b);
+Andrey: tg, ln, pi^n,pi/n,sqrt(a+b);
 MaxS: cos, exp(n), log, sqrt(x, y),16chnaya;
 MaxK: x^2, 10^x, sin, x^y, 1/x, sqrt(3);

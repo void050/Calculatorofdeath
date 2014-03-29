@@ -47,6 +47,7 @@
     <Compile Include="BinaryOperations\Adder.cs" />
     <Compile Include="BinaryOperations\BinaryOperationFactory.cs" />
     <Compile Include="BinaryOperations\Division.cs" />
+    <Compile Include="BinaryOperations\Factorial.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

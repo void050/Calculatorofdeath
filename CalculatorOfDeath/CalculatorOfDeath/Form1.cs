@@ -54,6 +54,16 @@ namespace CalculatorOfDeath
                 result.Text = "Мама ама криминал";
             }*/
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            transmitter("Factorial");
+        }
     }
 }
 

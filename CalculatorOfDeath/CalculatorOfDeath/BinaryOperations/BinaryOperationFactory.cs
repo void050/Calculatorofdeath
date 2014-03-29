@@ -20,6 +20,8 @@ namespace CalculatorOfDeath.BinaryOperations
                     return new Multiplication();
                 case "Substraction":
                     return new Subtraction();
+                case "Factorial":
+                    return new Factorial();
                 default:
                 throw new ArgumentException("Unknown calculator","name");
             }
