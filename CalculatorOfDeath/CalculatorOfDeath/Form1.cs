@@ -18,10 +18,12 @@ namespace CalculatorOfDeath
             InitializeComponent();
         }
 
-
+        
         private void transmitter(string name)
         {
             double FirstArgument = Convert.ToDouble(firstArgumentField.Text);
+            if(secondArgumentField.Text=="")
+                 secondArgumentField.Text = "0";
             double SecondArgument = Convert.ToDouble(secondArgumentField.Text);
             IBinaryCalculator calculator = BinaryOperationFactory.Create(name);
             result.Text = calculator.Calculate(FirstArgument, SecondArgument);
@@ -63,6 +65,36 @@ namespace CalculatorOfDeath
         private void button5_Click(object sender, EventArgs e)
         {
             transmitter("Factorial");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            transmitter("Square");
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            transmitter("Absolute");
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            transmitter("Binary");
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            transmitter("Octal");
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            transmitter("Mod");
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            transmitter("Percent");
         }
     }
 }

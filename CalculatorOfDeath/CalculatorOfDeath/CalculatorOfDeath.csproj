@@ -44,10 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryOperations\Absolute.cs" />
     <Compile Include="BinaryOperations\Adder.cs" />
+    <Compile Include="BinaryOperations\Binary.cs" />
     <Compile Include="BinaryOperations\BinaryOperationFactory.cs" />
     <Compile Include="BinaryOperations\Division.cs" />
     <Compile Include="BinaryOperations\Factorial.cs" />
+    <Compile Include="BinaryOperations\Mod.cs" />
+    <Compile Include="BinaryOperations\Octal.cs" />
+    <Compile Include="BinaryOperations\Percent.cs" />
+    <Compile Include="BinaryOperations\Square.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
