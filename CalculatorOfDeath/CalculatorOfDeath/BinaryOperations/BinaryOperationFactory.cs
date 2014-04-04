@@ -20,10 +20,6 @@ namespace CalculatorOfDeath.BinaryOperations
                     return new Multiplication();
                 case "Substraction":
                     return new Subtraction();
-                case "Square":
-                    return new Square();
-                case "Factorial":
-                    return new Factorial();
                 case "Absolute":
                     return new Absolute();
                 case "Binary":

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalculatorOfDeath.BinaryOperations
+namespace CalculatorOfDeath.UnaryOperations
 {
-    public class Factorial : IBinaryCalculator
+    public class Factorial : IUnaryCalculator
     {
-        public string Calculate(double firstArgument, double secondArgument)
+        public string Calculate(double firstArgument)
         {
             ulong factorial = 1,i;
             for ( i=Convert.ToUInt64(firstArgument); i >= 1; i--) 

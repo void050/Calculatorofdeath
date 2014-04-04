@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalculatorOfDeath.BinaryOperations
+namespace CalculatorOfDeath.UnaryOperations
 {
-    class Square: IBinaryCalculator
+    class Square: IUnaryCalculator
     {
-        public string Calculate(double firstArgument, double secondArgument)
+        public string Calculate(double firstArgument)
         {
             return Convert.ToString(Math.Sqrt(firstArgument));
         }

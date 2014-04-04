@@ -49,11 +49,14 @@
     <Compile Include="BinaryOperations\Binary.cs" />
     <Compile Include="BinaryOperations\BinaryOperationFactory.cs" />
     <Compile Include="BinaryOperations\Division.cs" />
-    <Compile Include="BinaryOperations\Factorial.cs" />
+    <Compile Include="UnaryOperations\IUnaryCalculator.cs" />
+    <Compile Include="UnaryOperations\UnaryOperationFactory.cs" />
+    <Compile Include="UnaryOperations\Factorial.cs" />
     <Compile Include="BinaryOperations\Mod.cs" />
     <Compile Include="BinaryOperations\Octal.cs" />
     <Compile Include="BinaryOperations\Percent.cs" />
-    <Compile Include="BinaryOperations\Square.cs" />
+    <Compile Include="UnaryOperations\Square.cs" />
+    <Compile Include="UnaryOperations\SquarePower.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

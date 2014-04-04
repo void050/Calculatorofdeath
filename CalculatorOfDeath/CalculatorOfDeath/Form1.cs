@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CalculatorOfDeath.BinaryOperations;
+using CalculatorOfDeath.UnaryOperations;
 
 namespace CalculatorOfDeath
 {
@@ -29,6 +30,12 @@ namespace CalculatorOfDeath
             result.Text = calculator.Calculate(FirstArgument, SecondArgument);
         }
 
+        private void trans(string name)
+        {
+            double FirstArgument = Convert.ToDouble(firstArgumentField.Text);
+            IUnaryCalculator calculator = UnaryOperationFactory.Create(name);
+            result.Text = calculator.Calculate(FirstArgument);
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -49,12 +56,7 @@ namespace CalculatorOfDeath
         {
 
             transmitter("Division");
-           /* if (SecondArgument != 0.0f) //This is feature of calculatorOfDeath,Our calculator can divide by zero
-                  result.Text = division.Calculate(FirstArgument, SecondArgument);
-            else
-            {
-                result.Text = "Мама ама криминал";
-            }*/
+   
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -64,12 +66,12 @@ namespace CalculatorOfDeath
 
         private void button5_Click(object sender, EventArgs e)
         {
-            transmitter("Factorial");
+            trans("Factorial");
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            transmitter("Square");
+            trans("Square");
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -95,6 +97,16 @@ namespace CalculatorOfDeath
         private void button11_Click(object sender, EventArgs e)
         {
             transmitter("Percent");
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            trans("SquarePower");
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
