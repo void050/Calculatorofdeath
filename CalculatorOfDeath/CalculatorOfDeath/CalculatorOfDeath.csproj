@@ -50,6 +50,7 @@
     <Compile Include="BinaryOperations\BinaryOperationFactory.cs" />
     <Compile Include="BinaryOperations\Division.cs" />
     <Compile Include="UnaryOperations\IUnaryCalculator.cs" />
+    <Compile Include="UnaryOperations\Sin.cs" />
     <Compile Include="UnaryOperations\UnaryOperationFactory.cs" />
     <Compile Include="UnaryOperations\Factorial.cs" />
     <Compile Include="BinaryOperations\Mod.cs" />

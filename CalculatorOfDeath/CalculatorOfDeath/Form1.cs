@@ -106,7 +106,7 @@ namespace CalculatorOfDeath
 
         private void button16_Click(object sender, EventArgs e)
         {
-
+            trans("Sin");
         }
     }
 }

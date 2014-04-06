@@ -18,6 +18,8 @@ namespace CalculatorOfDeath.UnaryOperations
                     return new Factorial();
                 case "SquarePower":
                     return new SquarePower();
+                case "Sin":
+                    return new Sin();
                 default:
                 throw new ArgumentException("Unknown calculator","name");
             }
