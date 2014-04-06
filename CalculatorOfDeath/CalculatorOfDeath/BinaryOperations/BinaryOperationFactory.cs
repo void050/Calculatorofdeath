@@ -30,6 +30,8 @@ namespace CalculatorOfDeath.BinaryOperations
                     return new Mod();
                 case "Percent":
                     return new Percent();
+                case "Degree":
+                    return new Degree();
                 default:
                 throw new ArgumentException("Unknown calculator","name");
             }

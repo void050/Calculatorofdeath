@@ -108,6 +108,26 @@ namespace CalculatorOfDeath
         {
             trans("Sin");
         }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            transmitter("Degree");
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            trans("TenPower");
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            trans("DeleteX");
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            trans("CubeRoot");
+        }
     }
 }
 

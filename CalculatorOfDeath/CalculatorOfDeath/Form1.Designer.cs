@@ -199,6 +199,7 @@
             this.button13.TabIndex = 16;
             this.button13.Text = "10^x";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
@@ -208,6 +209,7 @@
             this.button14.TabIndex = 17;
             this.button14.Text = "x^y";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button15
             // 
@@ -217,6 +219,7 @@
             this.button15.TabIndex = 18;
             this.button15.Text = "1/x";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -236,6 +239,7 @@
             this.button17.TabIndex = 20;
             this.button17.Text = "sqrt(3)";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // Form1
             // 

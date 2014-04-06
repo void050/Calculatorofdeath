@@ -48,9 +48,13 @@
     <Compile Include="BinaryOperations\Adder.cs" />
     <Compile Include="BinaryOperations\Binary.cs" />
     <Compile Include="BinaryOperations\BinaryOperationFactory.cs" />
+    <Compile Include="BinaryOperations\Degree.cs" />
     <Compile Include="BinaryOperations\Division.cs" />
+    <Compile Include="UnaryOperations\CubeRoot.cs" />
+    <Compile Include="UnaryOperations\DeleteX.cs" />
     <Compile Include="UnaryOperations\IUnaryCalculator.cs" />
     <Compile Include="UnaryOperations\Sin.cs" />
+    <Compile Include="UnaryOperations\TenPower.cs" />
     <Compile Include="UnaryOperations\UnaryOperationFactory.cs" />
     <Compile Include="UnaryOperations\Factorial.cs" />
     <Compile Include="BinaryOperations\Mod.cs" />

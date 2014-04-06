@@ -20,6 +20,12 @@ namespace CalculatorOfDeath.UnaryOperations
                     return new SquarePower();
                 case "Sin":
                     return new Sin();
+                case "TenPower":
+                    return new TenPower();
+                case "DeleteX":
+                    return new DeleteX();
+                case "CubeRoot":
+                    return new CubeRoot();
                 default:
                 throw new ArgumentException("Unknown calculator","name");
             }
