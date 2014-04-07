@@ -128,6 +128,31 @@ namespace CalculatorOfDeath
         {
             trans("CubeRoot");
         }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            trans("Cos");
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            trans("Exp");
+        }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+            trans("Log");
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            trans("SquareDegrees");
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            trans("SixteenScale");
+        }
     }
 }
 
