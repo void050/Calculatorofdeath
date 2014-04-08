@@ -50,10 +50,15 @@
     <Compile Include="BinaryOperations\BinaryOperationFactory.cs" />
     <Compile Include="BinaryOperations\Degree.cs" />
     <Compile Include="BinaryOperations\Division.cs" />
+    <Compile Include="BinaryOperations\Log.cs" />
+    <Compile Include="BinaryOperations\SquareDegrees.cs" />
+    <Compile Include="UnaryOperations\Cos.cs" />
     <Compile Include="UnaryOperations\CubeRoot.cs" />
     <Compile Include="UnaryOperations\DeleteX.cs" />
+    <Compile Include="UnaryOperations\Exp.cs" />
     <Compile Include="UnaryOperations\IUnaryCalculator.cs" />
     <Compile Include="UnaryOperations\Sin.cs" />
+    <Compile Include="UnaryOperations\SixteenScale.cs" />
     <Compile Include="UnaryOperations\TenPower.cs" />
     <Compile Include="UnaryOperations\UnaryOperationFactory.cs" />
     <Compile Include="UnaryOperations\Factorial.cs" />

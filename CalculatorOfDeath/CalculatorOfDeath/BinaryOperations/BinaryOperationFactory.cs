@@ -32,6 +32,10 @@ namespace CalculatorOfDeath.BinaryOperations
                     return new Percent();
                 case "Degree":
                     return new Degree();
+                case "Log":
+                    return new Log();
+                case "SquareDegrees":
+                    return new SquareDegrees();
                 default:
                 throw new ArgumentException("Unknown calculator","name");
             }

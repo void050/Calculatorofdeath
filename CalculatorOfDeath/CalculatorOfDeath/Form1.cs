@@ -141,12 +141,12 @@ namespace CalculatorOfDeath
 
         private void button20_Click(object sender, EventArgs e)
         {
-            trans("Log");
+            transmitter("Log");
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            trans("SquareDegrees");
+            transmitter("SquareDegrees");
         }
 
         private void button22_Click(object sender, EventArgs e)

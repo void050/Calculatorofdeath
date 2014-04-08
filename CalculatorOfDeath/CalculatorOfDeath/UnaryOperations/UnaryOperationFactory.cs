@@ -26,6 +26,12 @@ namespace CalculatorOfDeath.UnaryOperations
                     return new DeleteX();
                 case "CubeRoot":
                     return new CubeRoot();
+                case "Cos":
+                    return new Cos();
+                case "Exp":
+                    return new Exp();
+                case "SixteenScale":
+                    return new SixteenScale();
                 default:
                 throw new ArgumentException("Unknown calculator","name");
             }
