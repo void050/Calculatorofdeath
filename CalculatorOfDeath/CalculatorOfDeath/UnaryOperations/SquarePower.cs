@@ -8,9 +8,9 @@ namespace CalculatorOfDeath.UnaryOperations
 {
    public class SquarePower: IUnaryCalculator
    {
-       public string Calculate(double firstArgument)
+       public double Calculate(double firstArgument)
        {
-           return Math.Pow(firstArgument, 2).ToString();
+           return Math.Pow(firstArgument, 2);
 
        }
 

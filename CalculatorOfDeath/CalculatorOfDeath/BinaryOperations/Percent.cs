@@ -8,9 +8,9 @@ namespace CalculatorOfDeath.BinaryOperations
 {
     class Percent:IBinaryCalculator
     {
-        public string Calculate(double firstArgument, double secondArgument)
+        public double Calculate(double firstArgument, double secondArgument)
         {
-            return Convert.ToString(firstArgument+(secondArgument*firstArgument)/100);
+            return firstArgument+(secondArgument*firstArgument)/100;
         }
     }
 }

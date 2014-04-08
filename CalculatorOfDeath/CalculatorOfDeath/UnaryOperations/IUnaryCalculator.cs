@@ -2,6 +2,6 @@
 {
     public interface IUnaryCalculator
     {
-        string Calculate(double firstArgument);
+        double Calculate(double firstArgument);
     }
 }

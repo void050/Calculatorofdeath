@@ -27,14 +27,14 @@ namespace CalculatorOfDeath
                  secondArgumentField.Text = "0";
             double SecondArgument = Convert.ToDouble(secondArgumentField.Text);
             IBinaryCalculator calculator = BinaryOperationFactory.Create(name);
-            result.Text = calculator.Calculate(FirstArgument, SecondArgument);
+            result.Text = calculator.Calculate(FirstArgument, SecondArgument).ToString();
         }
 
         private void trans(string name)
         {
             double FirstArgument = Convert.ToDouble(firstArgumentField.Text);
             IUnaryCalculator calculator = UnaryOperationFactory.Create(name);
-            result.Text = calculator.Calculate(FirstArgument);
+            result.Text = calculator.Calculate(FirstArgument).ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)

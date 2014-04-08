@@ -8,9 +8,9 @@ namespace CalculatorOfDeath.UnaryOperations
 {
      public class DeleteX: IUnaryCalculator
     {
-         public string Calculate(double firstArgument)
+         public double Calculate(double firstArgument)
          {
-             return Convert.ToString(1 / firstArgument);
+             return 1 / firstArgument;
          }
     }
 }

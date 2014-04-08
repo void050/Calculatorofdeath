@@ -8,9 +8,9 @@ namespace CalculatorOfDeath.BinaryOperations
 {
     public class SquareDegrees: IBinaryCalculator
     {
-        public string Calculate(double firstArgument, double secondArgument)
+        public double Calculate(double firstArgument, double secondArgument)
         {
-            return Math.Pow(firstArgument, (1/secondArgument)).ToString();
+            return Math.Pow(firstArgument, (1/secondArgument));
         }
     }
 }

@@ -8,9 +8,9 @@ namespace CalculatorOfDeath.UnaryOperations
 {
     public class Cos: IUnaryCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
-            return Math.Cos(firstArgument).ToString();
+            return Math.Cos(firstArgument);
         }
     }
 }

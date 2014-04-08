@@ -8,9 +8,9 @@ namespace CalculatorOfDeath.UnaryOperations
 {
     public class Exp: IUnaryCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
-            return Math.Exp(firstArgument).ToString();
+            return Math.Exp(firstArgument);
         }
     }
 }

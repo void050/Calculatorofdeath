@@ -8,14 +8,14 @@ namespace CalculatorOfDeath.UnaryOperations
 {
     public class Factorial : IUnaryCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             ulong factorial = 1,i;
             for ( i=Convert.ToUInt64(firstArgument); i >= 1; i--) 
             {
                 factorial *= i;
             }
-            return Convert.ToString(factorial);
+            return factorial;
         }
     }
 }

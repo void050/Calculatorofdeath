@@ -8,9 +8,9 @@ namespace CalculatorOfDeath.BinaryOperations
 {
     class Absolute: IBinaryCalculator
     {
-        public string Calculate(double firstArgument, double secondArgument)
+        public double Calculate(double firstArgument, double secondArgument)
         {
-            return Convert.ToString(Math.Abs(firstArgument));
+            return Math.Abs(firstArgument);
         }
     }
 }

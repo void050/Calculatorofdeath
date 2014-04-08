@@ -8,9 +8,9 @@ namespace CalculatorOfDeath.UnaryOperations
 {
     public class TenPower: IUnaryCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
-            return Math.Pow(10, firstArgument).ToString();
+            return Math.Pow(10, firstArgument);
         }
     }
 }

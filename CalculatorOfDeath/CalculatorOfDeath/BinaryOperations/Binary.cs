@@ -8,11 +8,11 @@ namespace CalculatorOfDeath.BinaryOperations
 {
     class Binary: IBinaryCalculator
     {
-        public string Calculate(double firstArgument, double secondArgument)
+        public double Calculate(double firstArgument, double secondArgument)
         {
             int first;
             first = (int)firstArgument;
-            return Convert.ToString(first, 2);
+            return first;
         }
     }
 }

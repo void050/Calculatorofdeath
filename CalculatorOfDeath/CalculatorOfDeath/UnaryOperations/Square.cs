@@ -8,9 +8,9 @@ namespace CalculatorOfDeath.UnaryOperations
 {
     class Square: IUnaryCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
-            return Convert.ToString(Math.Sqrt(firstArgument));
+            return Math.Sqrt(firstArgument);
         }
     }
 }

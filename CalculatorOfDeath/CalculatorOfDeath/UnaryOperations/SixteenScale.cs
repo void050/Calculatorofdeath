@@ -8,11 +8,11 @@ namespace CalculatorOfDeath.UnaryOperations
 {
     public class SixteenScale: IUnaryCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
             int first;
             first = (int)firstArgument;
-            return Convert.ToString(first, 16);
+            return first;
         }
     }
 }

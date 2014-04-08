@@ -8,9 +8,9 @@ namespace CalculatorOfDeath.UnaryOperations
 {
     public class CubeRoot: IUnaryCalculator
     {
-        public string Calculate(double firstArgument)
+        public double Calculate(double firstArgument)
         {
-            return Math.Pow(firstArgument, (double)1/3).ToString();
+            return Math.Pow(firstArgument, (double)1/3);
         }
     }
 }
