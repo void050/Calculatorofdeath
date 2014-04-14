@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CalculatorOfDeath.UnaryOperations
 {
-    public class Sin : IUnaryCalculator
+    public class Loge : IUnaryCalculator
     {
         public double Calculate(double firstArgument)
         {
-            return Math.Sin(firstArgument);
+            return Math.Log(firstArgument);
         }
     }
 }

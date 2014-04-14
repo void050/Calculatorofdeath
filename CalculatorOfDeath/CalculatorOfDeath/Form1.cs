@@ -153,6 +153,31 @@ namespace CalculatorOfDeath
         {
             trans("SixteenScale");
         }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            trans("Loge");
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            trans("PiN");
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            trans("Tan");
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            trans("PiDivN");
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            transmitter("SqrtAB");
+        }
     }
 }
 

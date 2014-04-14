@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CalculatorOfDeath.UnaryOperations
 {
-    public class Sin : IUnaryCalculator
+    public class PiDivN : IUnaryCalculator
     {
         public double Calculate(double firstArgument)
         {
-            return Math.Sin(firstArgument);
+            return 3.14159/firstArgument;
         }
     }
 }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CalculatorOfDeath.BinaryOperations
 {
-    public class SquareDegrees : IBinaryCalculator
+    public class SqrtAB : IBinaryCalculator
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
-            return Math.Pow(firstArgument, (1/secondArgument));
+            return Math.Pow(firstArgument+secondArgument, 0.5);
         }
     }
 }

@@ -19,7 +19,7 @@ namespace CalculatorOfDeath.UnaryOperations
                 case "SquarePower":
                     return new SquarePower();
                 case "Sin":
-                    return new Sin();
+                    return new Loge();
                 case "TenPower":
                     return new TenPower();
                 case "DeleteX":
@@ -32,6 +32,14 @@ namespace CalculatorOfDeath.UnaryOperations
                     return new Exp();
                 case "SixteenScale":
                     return new SixteenScale();
+                case "Loge":
+                    return new Loge();
+                case "PiN":
+                    return new PiN();
+                case "Tan":
+                    return new Tan();
+                case "PiDivN":
+                    return new PiDivN();
                 default:
                 throw new ArgumentException("Unknown calculator","name");
             }
