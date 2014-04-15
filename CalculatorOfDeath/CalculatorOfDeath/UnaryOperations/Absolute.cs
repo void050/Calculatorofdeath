@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalculatorOfDeath.BinaryOperations
+namespace CalculatorOfDeath.UnaryOperations
 {
-    class Absolute: IBinaryCalculator
+    class Absolute: IUnaryCalculator
     {
-        public double Calculate(double firstArgument, double secondArgument)
+        public double Calculate(double firstArgument)
         {
             return Math.Abs(firstArgument);
         }

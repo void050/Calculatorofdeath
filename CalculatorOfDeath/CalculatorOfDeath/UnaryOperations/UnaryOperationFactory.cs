@@ -34,6 +34,8 @@ namespace CalculatorOfDeath.UnaryOperations
                     return new SixteenScale();
                 case "Loge":
                     return new Loge();
+                case "Absolute":
+                    return new Absolute();
                 case "PiN":
                     return new PiN();
                 case "Tan":
