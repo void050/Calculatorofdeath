@@ -19,7 +19,7 @@ namespace CalculatorOfDeath.UnaryOperations
                 case "SquarePower":
                     return new SquarePower();
                 case "Sin":
-                    return new Loge();
+                    return new Sin();
                 case "TenPower":
                     return new TenPower();
                 case "DeleteX":
