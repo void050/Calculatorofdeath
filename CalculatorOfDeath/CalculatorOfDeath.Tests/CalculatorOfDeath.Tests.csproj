@@ -43,9 +43,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinaryOperations\AdderTests.cs" />
+    <Compile Include="BinaryOperations\DegreeTests.cs" />
     <Compile Include="BinaryOperations\DivisionTests.cs" />
+    <Compile Include="BinaryOperations\LogTests.cs" />
+    <Compile Include="BinaryOperations\ModTests.cs" />
     <Compile Include="BinaryOperations\MultiplicationTests.cs" />
+    <Compile Include="BinaryOperations\PercentTests.cs" />
     <Compile Include="BinaryOperations\SqrtABTests.cs" />
+    <Compile Include="BinaryOperations\SquareDegreesTests.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnaryOperations\AbsoluteTest.cs" />
