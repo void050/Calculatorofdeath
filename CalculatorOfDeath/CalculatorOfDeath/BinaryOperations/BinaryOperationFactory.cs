@@ -20,10 +20,6 @@ namespace CalculatorOfDeath.BinaryOperations
                     return new Multiplication();
                 case "Subtraction":
                     return new Subtraction();
-                case "Binary":
-                    return new Binary();
-                case "Octal":
-                    return new Octal();
                 case "Mod":
                     return new Mod();
                 case "Percent":

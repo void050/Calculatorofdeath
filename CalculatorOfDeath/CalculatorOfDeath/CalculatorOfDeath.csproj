@@ -46,7 +46,6 @@
   <ItemGroup>
     <Compile Include="UnaryOperations\Absolute.cs" />
     <Compile Include="BinaryOperations\Adder.cs" />
-    <Compile Include="BinaryOperations\Binary.cs" />
     <Compile Include="BinaryOperations\BinaryOperationFactory.cs" />
     <Compile Include="BinaryOperations\Degree.cs" />
     <Compile Include="BinaryOperations\Division.cs" />
@@ -62,13 +61,11 @@
     <Compile Include="UnaryOperations\PiDivN.cs" />
     <Compile Include="UnaryOperations\PiN.cs" />
     <Compile Include="UnaryOperations\Sin.cs" />
-    <Compile Include="UnaryOperations\SixteenScale.cs" />
     <Compile Include="UnaryOperations\TenPower.cs" />
     <Compile Include="UnaryOperations\Tan.cs" />
     <Compile Include="UnaryOperations\UnaryOperationFactory.cs" />
     <Compile Include="UnaryOperations\Factorial.cs" />
     <Compile Include="BinaryOperations\Mod.cs" />
-    <Compile Include="BinaryOperations\Octal.cs" />
     <Compile Include="BinaryOperations\Percent.cs" />
     <Compile Include="UnaryOperations\Square.cs" />
     <Compile Include="UnaryOperations\SquarePower.cs" />

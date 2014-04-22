@@ -30,8 +30,6 @@ namespace CalculatorOfDeath.UnaryOperations
                     return new Cos();
                 case "Exp":
                     return new Exp();
-                case "SixteenScale":
-                    return new SixteenScale();
                 case "Loge":
                     return new Loge();
                 case "Absolute":
