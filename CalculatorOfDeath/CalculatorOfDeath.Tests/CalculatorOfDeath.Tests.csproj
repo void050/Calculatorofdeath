@@ -60,9 +60,11 @@
     <Compile Include="UnaryOperations\DeleteX.cs" />
     <Compile Include="UnaryOperations\ExpTest.cs" />
     <Compile Include="UnaryOperations\FactorialTests.cs" />
+    <Compile Include="UnaryOperations\LogeTests.cs" />
     <Compile Include="UnaryOperations\PiDivNTest.cs" />
     <Compile Include="UnaryOperations\PiNTest.cs" />
     <Compile Include="UnaryOperations\SinTest.cs" />
+    <Compile Include="UnaryOperations\SquarePowerTests.cs" />
     <Compile Include="UnaryOperations\SquareTest.cs" />
     <Compile Include="UnaryOperations\TanTest.cs" />
     <Compile Include="UnaryOperations\TenPowerTest.cs" />
