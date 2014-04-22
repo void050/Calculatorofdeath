@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CalculatorOfDeath.BinaryOperations;
+using CalculatorOfDeath.Sort;
 using CalculatorOfDeath.UnaryOperations;
 
 namespace CalculatorOfDeath
@@ -79,16 +80,6 @@ namespace CalculatorOfDeath
             transmitter("Absolute");
         }
 
-        private void button8_Click(object sender, EventArgs e)
-        {
-            transmitter("Binary");
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            transmitter("Octal");
-        }
-
         private void button9_Click(object sender, EventArgs e)
         {
             transmitter("Mod");
@@ -149,11 +140,6 @@ namespace CalculatorOfDeath
             transmitter("SquareDegrees");
         }
 
-        private void button22_Click(object sender, EventArgs e)
-        {
-            trans("SixteenScale");
-        }
-
         private void button23_Click(object sender, EventArgs e)
         {
             trans("Loge");
@@ -176,7 +162,25 @@ namespace CalculatorOfDeath
 
         private void button27_Click(object sender, EventArgs e)
         {
-            transmitter("SqrtAB");
+            transmitter("SqrtAB");                              
+        }
+
+        private void SortOne(string name)
+        {
+            string[] stringArray = firstArgumentField.Text.Split(' ');
+            int[] array = new int[stringArray.Length];
+            for (int i = 0; i < stringArray.Length; i++)
+            {
+                array[i] = Convert.ToInt32(stringArray[i]);
+            }
+            ISort sorter = SortFactory.CreateOperation(name);
+            int[] soresult = sorter.Sort(array);
+            string stringSoresult = string.Empty;
+            foreach (int element in soresult)
+            {
+                stringSoresult += element + " ";
+            }
+            result.Text = stringSoresult;
         }
     }
 }

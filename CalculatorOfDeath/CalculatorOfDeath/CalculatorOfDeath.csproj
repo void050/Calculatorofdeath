@@ -44,6 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Sort\BubbleSort.cs" />
+    <Compile Include="Sort\ISort.cs" />
+    <Compile Include="Sort\SortFactory.cs" />
     <Compile Include="UnaryOperations\Absolute.cs" />
     <Compile Include="BinaryOperations\Adder.cs" />
     <Compile Include="BinaryOperations\BinaryOperationFactory.cs" />
