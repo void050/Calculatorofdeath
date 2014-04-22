@@ -18,7 +18,7 @@ namespace CalculatorOfDeath.BinaryOperations
                     return new Division();
                 case "Multiplication":
                     return new Multiplication();
-                case "Substraction":
+                case "Subtraction":
                     return new Subtraction();
                 case "Binary":
                     return new Binary();
