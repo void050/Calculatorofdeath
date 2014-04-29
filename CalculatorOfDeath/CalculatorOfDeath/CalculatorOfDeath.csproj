@@ -48,6 +48,7 @@
     <Compile Include="Sort\CocktailSort.cs" />
     <Compile Include="Sort\CombSort.cs" />
     <Compile Include="Sort\ISort.cs" />
+    <Compile Include="Sort\NativeSort.cs" />
     <Compile Include="Sort\SortFactory.cs" />
     <Compile Include="UnaryOperations\Absolute.cs" />
     <Compile Include="BinaryOperations\Adder.cs" />

@@ -197,6 +197,10 @@ namespace CalculatorOfDeath
         {
             SortOne("CocktailSort");
         }
-
+        
+        private void NativeSort_Click(object sender, EventArgs e)
+        {
+            SortOne("NativeSort");
+        }
     }
 }

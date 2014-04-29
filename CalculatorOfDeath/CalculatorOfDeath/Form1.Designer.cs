@@ -63,6 +63,7 @@
             this.BubbleSort = new System.Windows.Forms.Button();
             this.CombSort = new System.Windows.Forms.Button();
             this.CocktailSort = new System.Windows.Forms.Button();
+            this.NativeSort = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // firstArgumentField
@@ -402,9 +403,9 @@
             // 
             // BubbleSort
             // 
-            this.BubbleSort.Location = new System.Drawing.Point(19, 285);
+            this.BubbleSort.Location = new System.Drawing.Point(61, 283);
             this.BubbleSort.Name = "BubbleSort";
-            this.BubbleSort.Size = new System.Drawing.Size(155, 23);
+            this.BubbleSort.Size = new System.Drawing.Size(120, 35);
             this.BubbleSort.TabIndex = 31;
             this.BubbleSort.Text = "Сортировка пузырьком";
             this.BubbleSort.UseVisualStyleBackColor = true;
@@ -412,9 +413,9 @@
             // 
             // CombSort
             // 
-            this.CombSort.Location = new System.Drawing.Point(199, 284);
+            this.CombSort.Location = new System.Drawing.Point(187, 283);
             this.CombSort.Name = "CombSort";
-            this.CombSort.Size = new System.Drawing.Size(168, 23);
+            this.CombSort.Size = new System.Drawing.Size(120, 35);
             this.CombSort.TabIndex = 32;
             this.CombSort.Text = "Расческой";
             this.CombSort.UseVisualStyleBackColor = true;
@@ -422,13 +423,23 @@
             // 
             // CocktailSort
             // 
-            this.CocktailSort.Location = new System.Drawing.Point(391, 284);
+            this.CocktailSort.Location = new System.Drawing.Point(439, 283);
             this.CocktailSort.Name = "CocktailSort";
-            this.CocktailSort.Size = new System.Drawing.Size(186, 23);
+            this.CocktailSort.Size = new System.Drawing.Size(120, 34);
             this.CocktailSort.TabIndex = 33;
             this.CocktailSort.Text = "Перемешиванием(коктейльная)";
             this.CocktailSort.UseVisualStyleBackColor = true;
             this.CocktailSort.Click += new System.EventHandler(this.CocktailSort_Click);
+            // 
+            // NativeSort
+            // 
+            this.NativeSort.Location = new System.Drawing.Point(313, 283);
+            this.NativeSort.Name = "NativeSort";
+            this.NativeSort.Size = new System.Drawing.Size(120, 35);
+            this.NativeSort.TabIndex = 34;
+            this.NativeSort.Text = "Родная";
+            this.NativeSort.UseVisualStyleBackColor = true;
+            this.NativeSort.Click += new System.EventHandler(this.NativeSort_Click);
             // 
             // Form1
             // 
@@ -436,6 +447,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chocolate;
             this.ClientSize = new System.Drawing.Size(623, 340);
+            this.Controls.Add(this.NativeSort);
             this.Controls.Add(this.CocktailSort);
             this.Controls.Add(this.CombSort);
             this.Controls.Add(this.BubbleSort);
@@ -516,6 +528,7 @@
         private System.Windows.Forms.Button BubbleSort;
         private System.Windows.Forms.Button CombSort;
         private System.Windows.Forms.Button CocktailSort;
-    }
+        private System.Windows.Forms.Button NativeSort;
+     }
 }
 
