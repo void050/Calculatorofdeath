@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -23,19 +24,33 @@ namespace CalculatorOfDeath
         
         private void transmitter(string name)
         {
+            try
+            {
             double FirstArgument = Convert.ToDouble(firstArgumentField.Text);
             if(secondArgumentField.Text=="")
                  secondArgumentField.Text = "0";
             double SecondArgument = Convert.ToDouble(secondArgumentField.Text);
             IBinaryCalculator calculator = BinaryOperationFactory.Create(name);
             result.Text = calculator.Calculate(FirstArgument, SecondArgument).ToString();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
 
         private void trans(string name)
         {
-            double FirstArgument = Convert.ToDouble(firstArgumentField.Text);
-            IUnaryCalculator calculator = UnaryOperationFactory.Create(name);
-            result.Text = calculator.Calculate(FirstArgument).ToString();
+            try
+            {
+                double FirstArgument = Convert.ToDouble(firstArgumentField.Text);
+                IUnaryCalculator calculator = UnaryOperationFactory.Create(name);
+                result.Text = calculator.Calculate(FirstArgument).ToString();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -167,20 +182,27 @@ namespace CalculatorOfDeath
 
         private void SortOne(string name)
         {
-            string[] stringArray = firstArgumentField.Text.Split(' ');
-            int[] array = new int[stringArray.Length];
-            for (int i = 0; i < stringArray.Length; i++)
+            try
             {
-                array[i] = Convert.ToInt32(stringArray[i]);
+                string[] stringArray = firstArgumentField.Text.Split(' ');
+                int[] array = new int[stringArray.Length];
+                for (int i = 0; i < stringArray.Length; i++)
+                {
+                    array[i] = Convert.ToInt32(stringArray[i]);
+                }
+                ISort sorter = SortFactory.CreateOperation(name);
+                int[] soresult = sorter.Sort(array);
+                string stringSoresult = string.Empty;
+                foreach (int element in soresult)
+                {
+                    stringSoresult += element + " ";
+                }
+                result.Text = stringSoresult;
             }
-            ISort sorter = SortFactory.CreateOperation(name);
-            int[] soresult = sorter.Sort(array);
-            string stringSoresult = string.Empty;
-            foreach (int element in soresult)
+            catch (Exception e)
             {
-                stringSoresult += element + " ";
+                MessageBox.Show(e.Message);
             }
-            result.Text = stringSoresult;
         }
 
         private void BubbleSort_Click(object sender, EventArgs e)

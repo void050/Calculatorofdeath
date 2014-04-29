@@ -403,42 +403,46 @@
             // 
             // BubbleSort
             // 
+            this.BubbleSort.BackColor = System.Drawing.Color.Gold;
             this.BubbleSort.Location = new System.Drawing.Point(61, 283);
             this.BubbleSort.Name = "BubbleSort";
             this.BubbleSort.Size = new System.Drawing.Size(120, 35);
             this.BubbleSort.TabIndex = 31;
             this.BubbleSort.Text = "Сортировка пузырьком";
-            this.BubbleSort.UseVisualStyleBackColor = true;
+            this.BubbleSort.UseVisualStyleBackColor = false;
             this.BubbleSort.Click += new System.EventHandler(this.BubbleSort_Click);
             // 
             // CombSort
             // 
+            this.CombSort.BackColor = System.Drawing.Color.Gold;
             this.CombSort.Location = new System.Drawing.Point(187, 283);
             this.CombSort.Name = "CombSort";
             this.CombSort.Size = new System.Drawing.Size(120, 35);
             this.CombSort.TabIndex = 32;
             this.CombSort.Text = "Расческой";
-            this.CombSort.UseVisualStyleBackColor = true;
+            this.CombSort.UseVisualStyleBackColor = false;
             this.CombSort.Click += new System.EventHandler(this.CombSort_Click);
             // 
             // CocktailSort
             // 
+            this.CocktailSort.BackColor = System.Drawing.Color.Gold;
             this.CocktailSort.Location = new System.Drawing.Point(439, 283);
             this.CocktailSort.Name = "CocktailSort";
             this.CocktailSort.Size = new System.Drawing.Size(120, 34);
             this.CocktailSort.TabIndex = 33;
-            this.CocktailSort.Text = "Перемешиванием(коктейльная)";
-            this.CocktailSort.UseVisualStyleBackColor = true;
+            this.CocktailSort.Text = "Перемешиванием (коктейльная)";
+            this.CocktailSort.UseVisualStyleBackColor = false;
             this.CocktailSort.Click += new System.EventHandler(this.CocktailSort_Click);
             // 
             // NativeSort
             // 
+            this.NativeSort.BackColor = System.Drawing.Color.Gold;
             this.NativeSort.Location = new System.Drawing.Point(313, 283);
             this.NativeSort.Name = "NativeSort";
             this.NativeSort.Size = new System.Drawing.Size(120, 35);
             this.NativeSort.TabIndex = 34;
             this.NativeSort.Text = "Родная";
-            this.NativeSort.UseVisualStyleBackColor = true;
+            this.NativeSort.UseVisualStyleBackColor = false;
             this.NativeSort.Click += new System.EventHandler(this.NativeSort_Click);
             // 
             // Form1
