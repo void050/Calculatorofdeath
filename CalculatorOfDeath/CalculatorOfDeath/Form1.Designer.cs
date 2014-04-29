@@ -62,6 +62,7 @@
             this.button29 = new System.Windows.Forms.Button();
             this.BubbleSort = new System.Windows.Forms.Button();
             this.CombSort = new System.Windows.Forms.Button();
+            this.CocktailSort = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // firstArgumentField
@@ -419,12 +420,23 @@
             this.CombSort.UseVisualStyleBackColor = true;
             this.CombSort.Click += new System.EventHandler(this.CombSort_Click);
             // 
+            // CocktailSort
+            // 
+            this.CocktailSort.Location = new System.Drawing.Point(391, 284);
+            this.CocktailSort.Name = "CocktailSort";
+            this.CocktailSort.Size = new System.Drawing.Size(186, 23);
+            this.CocktailSort.TabIndex = 33;
+            this.CocktailSort.Text = "Перемешиванием(коктейльная)";
+            this.CocktailSort.UseVisualStyleBackColor = true;
+            this.CocktailSort.Click += new System.EventHandler(this.CocktailSort_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chocolate;
             this.ClientSize = new System.Drawing.Size(623, 340);
+            this.Controls.Add(this.CocktailSort);
             this.Controls.Add(this.CombSort);
             this.Controls.Add(this.BubbleSort);
             this.Controls.Add(this.button27);
@@ -503,6 +515,7 @@
         private System.Windows.Forms.Button button29;
         private System.Windows.Forms.Button BubbleSort;
         private System.Windows.Forms.Button CombSort;
+        private System.Windows.Forms.Button CocktailSort;
     }
 }
 

@@ -193,5 +193,10 @@ namespace CalculatorOfDeath
             SortOne("CombSort");
         }
 
+        private void CocktailSort_Click(object sender, EventArgs e)
+        {
+            SortOne("CocktailSort");
+        }
+
     }
 }
