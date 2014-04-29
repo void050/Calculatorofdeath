@@ -60,6 +60,8 @@
             this.button22 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
+            this.BubbleSort = new System.Windows.Forms.Button();
+            this.CombSort = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // firstArgumentField
@@ -397,12 +399,34 @@
             this.button29.UseVisualStyleBackColor = false;
             this.button29.Click += new System.EventHandler(this.button25_Click);
             // 
+            // BubbleSort
+            // 
+            this.BubbleSort.Location = new System.Drawing.Point(19, 285);
+            this.BubbleSort.Name = "BubbleSort";
+            this.BubbleSort.Size = new System.Drawing.Size(155, 23);
+            this.BubbleSort.TabIndex = 31;
+            this.BubbleSort.Text = "Сортировка пузырьком";
+            this.BubbleSort.UseVisualStyleBackColor = true;
+            this.BubbleSort.Click += new System.EventHandler(this.BubbleSort_Click);
+            // 
+            // CombSort
+            // 
+            this.CombSort.Location = new System.Drawing.Point(199, 284);
+            this.CombSort.Name = "CombSort";
+            this.CombSort.Size = new System.Drawing.Size(168, 23);
+            this.CombSort.TabIndex = 32;
+            this.CombSort.Text = "Расческой";
+            this.CombSort.UseVisualStyleBackColor = true;
+            this.CombSort.Click += new System.EventHandler(this.CombSort_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chocolate;
             this.ClientSize = new System.Drawing.Size(623, 340);
+            this.Controls.Add(this.CombSort);
+            this.Controls.Add(this.BubbleSort);
             this.Controls.Add(this.button27);
             this.Controls.Add(this.button26);
             this.Controls.Add(this.button29);
@@ -477,6 +501,8 @@
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button28;
         private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button BubbleSort;
+        private System.Windows.Forms.Button CombSort;
     }
 }
 

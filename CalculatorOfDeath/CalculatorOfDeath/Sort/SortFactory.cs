@@ -14,6 +14,8 @@ namespace CalculatorOfDeath.Sort
             {
                 case "BubbleSort":
                     return new BubbleSort();
+                case "CombSort":
+                    return new CombSort();
                 default:
                     throw new ArgumentException("Unknown calculator", "name");
             }

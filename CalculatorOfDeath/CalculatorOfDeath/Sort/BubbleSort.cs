@@ -23,6 +23,7 @@ namespace CalculatorOfDeath.Sort
                     }
                 }
             }
+            return firstArgument;
         }
     }
 }

@@ -182,6 +182,16 @@ namespace CalculatorOfDeath
             }
             result.Text = stringSoresult;
         }
+
+        private void BubbleSort_Click(object sender, EventArgs e)
+        {
+            SortOne("BubbleSort");
+        }
+
+        private void CombSort_Click(object sender, EventArgs e)
+        {
+            SortOne("CombSort");
+        }
+
     }
 }
-

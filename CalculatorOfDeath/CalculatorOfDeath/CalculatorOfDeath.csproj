@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Sort\BubbleSort.cs" />
+    <Compile Include="Sort\CombSort.cs" />
     <Compile Include="Sort\ISort.cs" />
     <Compile Include="Sort\SortFactory.cs" />
     <Compile Include="UnaryOperations\Absolute.cs" />
