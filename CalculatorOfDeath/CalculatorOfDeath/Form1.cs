@@ -26,12 +26,12 @@ namespace CalculatorOfDeath
         {
             try
             {
-            double FirstArgument = Convert.ToDouble(firstArgumentField.Text);
-            if(secondArgumentField.Text=="")
-                 secondArgumentField.Text = "0";
-            double SecondArgument = Convert.ToDouble(secondArgumentField.Text);
-            IBinaryCalculator calculator = BinaryOperationFactory.Create(name);
-            result.Text = calculator.Calculate(FirstArgument, SecondArgument).ToString();
+                double FirstArgument = Convert.ToDouble(firstArgumentField.Text);
+                if(secondArgumentField.Text=="")
+                     secondArgumentField.Text = "0";
+                double SecondArgument = Convert.ToDouble(secondArgumentField.Text);
+                IBinaryCalculator calculator = BinaryOperationFactory.Create(name);
+                result.Text = calculator.Calculate(FirstArgument, SecondArgument).ToString();
             }
             catch (Exception e)
             {
@@ -92,7 +92,7 @@ namespace CalculatorOfDeath
 
         private void button7_Click(object sender, EventArgs e)
         {
-            transmitter("Absolute");
+            trans("Absolute");
         }
 
         private void button9_Click(object sender, EventArgs e)
