@@ -1,12 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using CalculatorOfDeath.BinaryOperations;
 using CalculatorOfDeath.Sort;
@@ -22,16 +14,16 @@ namespace CalculatorOfDeath
         }
 
         
-        private void transmitter(string name)
+        private void Transmitter(string name)
         {
             try
             {
-                double FirstArgument = Convert.ToDouble(firstArgumentField.Text);
+                double firstArgument = Convert.ToDouble(firstArgumentField.Text);
                 if(secondArgumentField.Text=="")
                      secondArgumentField.Text = "0";
-                double SecondArgument = Convert.ToDouble(secondArgumentField.Text);
+                double secondArgument = Convert.ToDouble(secondArgumentField.Text);
                 IBinaryCalculator calculator = BinaryOperationFactory.Create(name);
-                result.Text = calculator.Calculate(FirstArgument, SecondArgument).ToString();
+                result.Text = calculator.Calculate(firstArgument, secondArgument).ToString();
             }
             catch (Exception e)
             {
@@ -39,13 +31,13 @@ namespace CalculatorOfDeath
             }
         }
 
-        private void trans(string name)
+        private void Trans(string name)
         {
             try
             {
-                double FirstArgument = Convert.ToDouble(firstArgumentField.Text);
+                double firstArgument = Convert.ToDouble(firstArgumentField.Text);
                 IUnaryCalculator calculator = UnaryOperationFactory.Create(name);
-                result.Text = calculator.Calculate(FirstArgument).ToString();
+                result.Text = calculator.Calculate(firstArgument).ToString();
             }
             catch (Exception e)
             {
@@ -53,131 +45,124 @@ namespace CalculatorOfDeath
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void AdderClick(object sender, EventArgs e)
         {
-           transmitter("Adder");
+           Transmitter("Adder");
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void SubtractionClick(object sender, EventArgs e)
         {
-            transmitter("Substraction");
+            Transmitter("Substraction");
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void MultiplicationClick(object sender, EventArgs e)
         {
-            transmitter("Multiplication");
+            Transmitter("Multiplication");
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void DivisionClick(object sender, EventArgs e)
         {
-
-            transmitter("Division");
-   
+            Transmitter("Division");
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void FactorialClick(object sender, EventArgs e)
         {
-
+            Trans("Factorial");
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void SquareClick(object sender, EventArgs e)
         {
-            trans("Factorial");
+            Trans("Square");
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void AbsoluteClick(object sender, EventArgs e)
         {
-            trans("Square");
+            Trans("Absolute");
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void ModClick(object sender, EventArgs e)
         {
-            trans("Absolute");
+            Transmitter("Mod");
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void PercentClick(object sender, EventArgs e)
         {
-            transmitter("Mod");
+            Transmitter("Percent");
         }
 
-        private void button11_Click(object sender, EventArgs e)
+        private void SquarePowerClick(object sender, EventArgs e)
         {
-            transmitter("Percent");
+            Trans("SquarePower");
         }
 
-        private void button12_Click(object sender, EventArgs e)
+        private void SinClick(object sender, EventArgs e)
         {
-            trans("SquarePower");
+            Trans("Sin");
         }
 
-        private void button16_Click(object sender, EventArgs e)
+        private void DegreeClick(object sender, EventArgs e)
         {
-            trans("Sin");
+            Transmitter("Degree");
         }
 
-        private void button14_Click(object sender, EventArgs e)
+        private void TenPowerClick(object sender, EventArgs e)
         {
-            transmitter("Degree");
+            Trans("TenPower");
         }
 
-        private void button13_Click(object sender, EventArgs e)
+        private void DeleteXClick(object sender, EventArgs e)
         {
-            trans("TenPower");
+            Trans("DeleteX");
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void CubeRootClick(object sender, EventArgs e)
         {
-            trans("DeleteX");
+            Trans("CubeRoot");
         }
 
-        private void button17_Click(object sender, EventArgs e)
+        private void CosClick(object sender, EventArgs e)
         {
-            trans("CubeRoot");
+            Trans("Cos");
         }
 
-        private void button18_Click(object sender, EventArgs e)
+        private void ExpClick(object sender, EventArgs e)
         {
-            trans("Cos");
+            Trans("Exp");
         }
 
-        private void button19_Click(object sender, EventArgs e)
+        private void LogClick(object sender, EventArgs e)
         {
-            trans("Exp");
+            Transmitter("Log");
         }
 
-        private void button20_Click(object sender, EventArgs e)
+        private void SquareDegreesClick(object sender, EventArgs e)
         {
-            transmitter("Log");
+            Transmitter("SquareDegrees");
         }
 
-        private void button21_Click(object sender, EventArgs e)
+        private void LogeClick(object sender, EventArgs e)
         {
-            transmitter("SquareDegrees");
+            Trans("Loge");
         }
 
-        private void button23_Click(object sender, EventArgs e)
+        private void PiNClick(object sender, EventArgs e)
         {
-            trans("Loge");
+            Trans("PiN");
         }
 
-        private void button24_Click(object sender, EventArgs e)
+        private void TanClick(object sender, EventArgs e)
         {
-            trans("PiN");
+            Trans("Tan");
         }
 
-        private void button25_Click(object sender, EventArgs e)
+        private void PiDivNClick(object sender, EventArgs e)
         {
-            trans("Tan");
+            Trans("PiDivN");
         }
 
-        private void button26_Click(object sender, EventArgs e)
+        private void SqrtABClick(object sender, EventArgs e)
         {
-            trans("PiDivN");
-        }
-
-        private void button27_Click(object sender, EventArgs e)
-        {
-            transmitter("SqrtAB");                              
+            Transmitter("SqrtAB");                              
         }
 
         private void SortOne(string name)

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CalculatorOfDeath.BinaryOperations
+﻿namespace CalculatorOfDeath.BinaryOperations
 {
     public class Subtraction : IBinaryCalculator
     {

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CalculatorOfDeath.BinaryOperations;
+﻿using CalculatorOfDeath.BinaryOperations;
 using NUnit.Framework;
 
 namespace CalculatorOfDeath.Tests.BinaryOperations
@@ -18,5 +13,6 @@ namespace CalculatorOfDeath.Tests.BinaryOperations
             double result = calculator.Calculate(4, 2);
             Assert.AreEqual(2, result);
         }
+
     }
 }

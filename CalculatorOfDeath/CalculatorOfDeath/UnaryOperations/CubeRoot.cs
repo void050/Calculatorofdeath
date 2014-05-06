@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CalculatorOfDeath.UnaryOperations
 {
@@ -10,7 +6,12 @@ namespace CalculatorOfDeath.UnaryOperations
     {
         public double Calculate(double firstArgument)
         {
-            return Math.Pow(firstArgument, (double)1/3);
+            int negative = 1; 
+            if (firstArgument < 0)
+            {
+                negative = -1;
+            }
+            return negative * Math.Pow(Math.Abs(firstArgument), (double)1 / 3);
         }
     }
 }

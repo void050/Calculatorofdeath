@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CalculatorOfDeath.UnaryOperations;
+﻿using CalculatorOfDeath.UnaryOperations;
 using NUnit.Framework;
 
 namespace CalculatorOfDeath.Tests.UnaryOperations

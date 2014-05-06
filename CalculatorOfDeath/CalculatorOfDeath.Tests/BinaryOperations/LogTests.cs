@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using CalculatorOfDeath.BinaryOperations;
 using NUnit.Framework;
 
@@ -17,6 +13,14 @@ namespace CalculatorOfDeath.Tests.BinaryOperations
             IBinaryCalculator calculator = BinaryOperationFactory.Create("Log");
             double result = calculator.Calculate(1, 4);
             Assert.AreEqual(0, result);
+        }
+
+        [Test]
+        [ExpectedException(typeof(Exception))]
+        public void LogFailTest()
+        {
+            IBinaryCalculator calculator = BinaryOperationFactory.Create("Log");
+            double result = calculator.Calculate(-1, 4);
         }
     }
 }

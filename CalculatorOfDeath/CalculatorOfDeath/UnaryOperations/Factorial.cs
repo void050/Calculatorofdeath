@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CalculatorOfDeath.UnaryOperations
 {
@@ -11,6 +7,10 @@ namespace CalculatorOfDeath.UnaryOperations
         public double Calculate(double firstArgument)
         {
             ulong factorial = 1,i;
+            if (firstArgument < 0)
+            {
+                throw new Exception("Не может быть отрицательным");
+            }
             for ( i=Convert.ToUInt64(firstArgument); i >= 1; i--) 
             {
                 factorial *= i;

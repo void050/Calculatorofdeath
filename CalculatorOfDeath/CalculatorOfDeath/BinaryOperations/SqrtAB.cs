@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CalculatorOfDeath.BinaryOperations
 {
@@ -10,6 +6,10 @@ namespace CalculatorOfDeath.BinaryOperations
     {
         public double Calculate(double firstArgument, double secondArgument)
         {
+            if (firstArgument + secondArgument < 0)
+            {
+                throw new Exception("Не может быть отрицательным");
+            }
             return Math.Pow(firstArgument+secondArgument, 0.5);
         }
     }

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Globalization;
-
-namespace CalculatorOfDeath.BinaryOperations
+﻿namespace CalculatorOfDeath.BinaryOperations
 {
 
     public class Division : IBinaryCalculator

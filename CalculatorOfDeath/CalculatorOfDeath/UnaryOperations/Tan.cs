@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CalculatorOfDeath.UnaryOperations
 {
@@ -10,6 +6,10 @@ namespace CalculatorOfDeath.UnaryOperations
     {
         public double Calculate(double firstArgument)
         {
+            if (Math.Abs(firstArgument - Math.PI/2) <= 0.00001)
+            {
+                throw new Exception("Тангенс Pi/2(90 градусов) не существует");
+            }
             return Math.Tan(firstArgument);
         }
     }
