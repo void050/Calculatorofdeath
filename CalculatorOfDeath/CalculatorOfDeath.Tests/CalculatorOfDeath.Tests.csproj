@@ -57,6 +57,7 @@
     <Compile Include="SortOperations\BubbleSortTest.cs" />
     <Compile Include="SortOperations\CocktailSortTests.cs" />
     <Compile Include="SortOperations\CombSortTests.cs" />
+    <Compile Include="SortOperations\GnomeSortTests.cs" />
     <Compile Include="SortOperations\NativeSortTestst.cs" />
     <Compile Include="UnaryOperations\AbsoluteTest.cs" />
     <Compile Include="UnaryOperations\ArcCosTest.cs" />
