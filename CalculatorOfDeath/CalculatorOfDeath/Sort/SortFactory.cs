@@ -8,6 +8,8 @@ namespace CalculatorOfDeath.Sort
         {
             switch (name)
             {
+                case "GS":
+                    return new GnomeSort();
                 case "BubbleSort":
                     return new BubbleSort();
                 case "CombSort":

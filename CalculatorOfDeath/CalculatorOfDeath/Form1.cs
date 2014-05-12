@@ -229,5 +229,10 @@ namespace CalculatorOfDeath
         {
             Trans ("ArcCtg");
         }
+
+        private void GS_Click(object sender, EventArgs e)
+        {
+            SortOne ("GS");
+        }
     }
 }

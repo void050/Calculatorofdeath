@@ -63,6 +63,7 @@
             this.ArcCos = new System.Windows.Forms.Button();
             this.ArcSin = new System.Windows.Forms.Button();
             this.ArcCtg = new System.Windows.Forms.Button();
+            this.GS = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // firstArgumentField
@@ -438,12 +439,24 @@
             this.ArcCtg.UseVisualStyleBackColor = false;
             this.ArcCtg.Click += new System.EventHandler(this.ArcCtg_Click);
             // 
+            // GS
+            // 
+            this.GS.BackColor = System.Drawing.Color.Gold;
+            this.GS.Location = new System.Drawing.Point(565, 283);
+            this.GS.Name = "GS";
+            this.GS.Size = new System.Drawing.Size(116, 34);
+            this.GS.TabIndex = 39;
+            this.GS.Text = "Гномья Сортировка";
+            this.GS.UseVisualStyleBackColor = false;
+            this.GS.Click += new System.EventHandler(this.GS_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chocolate;
             this.ClientSize = new System.Drawing.Size(746, 340);
+            this.Controls.Add(this.GS);
             this.Controls.Add(this.ArcCtg);
             this.Controls.Add(this.ArcSin);
             this.Controls.Add(this.ArcCos);
@@ -523,6 +536,7 @@
         private System.Windows.Forms.Button ArcCos;
         private System.Windows.Forms.Button ArcSin;
         private System.Windows.Forms.Button ArcCtg;
+        private System.Windows.Forms.Button GS;
      }
 }
 

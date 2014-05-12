@@ -47,6 +47,7 @@
     <Compile Include="Sort\BubbleSort.cs" />
     <Compile Include="Sort\CocktailSort.cs" />
     <Compile Include="Sort\CombSort.cs" />
+    <Compile Include="Sort\GnomeSort.cs" />
     <Compile Include="Sort\ISort.cs" />
     <Compile Include="Sort\NativeSort.cs" />
     <Compile Include="Sort\SortFactory.cs" />
