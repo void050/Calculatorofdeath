@@ -59,6 +59,10 @@
             this.CombSort = new System.Windows.Forms.Button();
             this.CocktailSort = new System.Windows.Forms.Button();
             this.NativeSort = new System.Windows.Forms.Button();
+            this.tgOperation = new System.Windows.Forms.Button();
+            this.ArcCos = new System.Windows.Forms.Button();
+            this.ArcSin = new System.Windows.Forms.Button();
+            this.ArcCtg = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // firstArgumentField
@@ -390,12 +394,60 @@
             this.NativeSort.UseVisualStyleBackColor = false;
             this.NativeSort.Click += new System.EventHandler(this.NativeSort_Click);
             // 
+            // tgOperation
+            // 
+            this.tgOperation.BackColor = System.Drawing.Color.Tan;
+            this.tgOperation.Location = new System.Drawing.Point(604, 61);
+            this.tgOperation.Name = "tgOperation";
+            this.tgOperation.Size = new System.Drawing.Size(92, 50);
+            this.tgOperation.TabIndex = 35;
+            this.tgOperation.Text = "Arctg";
+            this.tgOperation.UseVisualStyleBackColor = false;
+            this.tgOperation.Click += new System.EventHandler(this.tgOperation_Click);
+            // 
+            // ArcCos
+            // 
+            this.ArcCos.BackColor = System.Drawing.Color.Tan;
+            this.ArcCos.Location = new System.Drawing.Point(602, 173);
+            this.ArcCos.Name = "ArcCos";
+            this.ArcCos.Size = new System.Drawing.Size(94, 49);
+            this.ArcCos.TabIndex = 36;
+            this.ArcCos.Text = "ArcCos";
+            this.ArcCos.UseVisualStyleBackColor = false;
+            this.ArcCos.Click += new System.EventHandler(this.ArcCos_Click);
+            // 
+            // ArcSin
+            // 
+            this.ArcSin.BackColor = System.Drawing.Color.Tan;
+            this.ArcSin.Location = new System.Drawing.Point(604, 118);
+            this.ArcSin.Name = "ArcSin";
+            this.ArcSin.Size = new System.Drawing.Size(92, 47);
+            this.ArcSin.TabIndex = 37;
+            this.ArcSin.Text = "ArcSin";
+            this.ArcSin.UseVisualStyleBackColor = false;
+            this.ArcSin.Click += new System.EventHandler(this.ArcSin_Click);
+            // 
+            // ArcCtg
+            // 
+            this.ArcCtg.BackColor = System.Drawing.Color.Tan;
+            this.ArcCtg.Location = new System.Drawing.Point(604, 230);
+            this.ArcCtg.Name = "ArcCtg";
+            this.ArcCtg.Size = new System.Drawing.Size(92, 47);
+            this.ArcCtg.TabIndex = 38;
+            this.ArcCtg.Text = "ArcCtg";
+            this.ArcCtg.UseVisualStyleBackColor = false;
+            this.ArcCtg.Click += new System.EventHandler(this.ArcCtg_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chocolate;
-            this.ClientSize = new System.Drawing.Size(623, 340);
+            this.ClientSize = new System.Drawing.Size(746, 340);
+            this.Controls.Add(this.ArcCtg);
+            this.Controls.Add(this.ArcSin);
+            this.Controls.Add(this.ArcCos);
+            this.Controls.Add(this.tgOperation);
             this.Controls.Add(this.NativeSort);
             this.Controls.Add(this.CocktailSort);
             this.Controls.Add(this.CombSort);
@@ -467,6 +519,10 @@
         private System.Windows.Forms.Button CombSort;
         private System.Windows.Forms.Button CocktailSort;
         private System.Windows.Forms.Button NativeSort;
+        private System.Windows.Forms.Button tgOperation;
+        private System.Windows.Forms.Button ArcCos;
+        private System.Windows.Forms.Button ArcSin;
+        private System.Windows.Forms.Button ArcCtg;
      }
 }
 

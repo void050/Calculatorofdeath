@@ -58,6 +58,10 @@
     <Compile Include="BinaryOperations\Log.cs" />
     <Compile Include="BinaryOperations\SqrtAB.cs" />
     <Compile Include="BinaryOperations\SquareDegrees.cs" />
+    <Compile Include="UnaryOperations\ArcCos.cs" />
+    <Compile Include="UnaryOperations\ArcCtg.cs" />
+    <Compile Include="UnaryOperations\ArcSin.cs" />
+    <Compile Include="UnaryOperations\ArcTan.cs" />
     <Compile Include="UnaryOperations\Cos.cs" />
     <Compile Include="UnaryOperations\CubeRoot.cs" />
     <Compile Include="UnaryOperations\DeleteX.cs" />

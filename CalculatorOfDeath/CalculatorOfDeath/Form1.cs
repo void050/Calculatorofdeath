@@ -209,5 +209,25 @@ namespace CalculatorOfDeath
         {
             SortOne("NativeSort");
         }
+
+        private void tgOperation_Click(object sender, EventArgs e)
+        {
+            Trans("ArcTan");
+        }
+
+        private void ArcSin_Click(object sender, EventArgs e)
+        {
+            Trans("ArcSin");
+        }
+
+        private void ArcCos_Click(object sender, EventArgs e)
+        {
+            Trans("ArcCos");
+        }
+
+        private void ArcCtg_Click(object sender, EventArgs e)
+        {
+            Trans ("ArcCtg");
+        }
     }
 }

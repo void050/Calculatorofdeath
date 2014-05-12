@@ -8,6 +8,14 @@ namespace CalculatorOfDeath.UnaryOperations
         {
             switch (name)
             {
+                case "ArcCtg":
+                    return new ArcCtg();
+                case "ArcCos":
+                    return new ArcCos();
+                case "ArcSin":
+                    return new ArcSin();
+                case "ArcTan":
+                    return new ArcTan();
                 case "Square":
                     return new Square();
                 case "Factorial":
