@@ -59,6 +59,10 @@
     <Compile Include="SortOperations\CombSortTests.cs" />
     <Compile Include="SortOperations\NativeSortTestst.cs" />
     <Compile Include="UnaryOperations\AbsoluteTest.cs" />
+    <Compile Include="UnaryOperations\ArcCosTest.cs" />
+    <Compile Include="UnaryOperations\ArcCtgTests.cs" />
+    <Compile Include="UnaryOperations\ArcSinTest.cs" />
+    <Compile Include="UnaryOperations\ArcTanTest.cs" />
     <Compile Include="UnaryOperations\CosTests.cs" />
     <Compile Include="UnaryOperations\CubeRootTest.cs" />
     <Compile Include="UnaryOperations\DeleteX.cs" />
