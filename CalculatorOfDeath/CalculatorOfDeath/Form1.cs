@@ -50,7 +50,7 @@ namespace CalculatorOfDeath
            Transmitter("Adder");
         }
 
-        private void SubtractionClick(object sender, EventArgs e)
+        private void SubstractionClick(object sender, EventArgs e)
         {
             Transmitter("Substraction");
         }
@@ -234,5 +234,6 @@ namespace CalculatorOfDeath
         {
             SortOne ("GS");
         }
+
     }
 }

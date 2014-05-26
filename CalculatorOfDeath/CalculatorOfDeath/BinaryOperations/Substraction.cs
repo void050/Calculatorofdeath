@@ -1,6 +1,6 @@
 ﻿namespace CalculatorOfDeath.BinaryOperations
 {
-    public class Subtraction : IBinaryCalculator
+    public class Substraction : IBinaryCalculator
     {
         public double Calculate(double firstArgument, double secondArgument)
         {

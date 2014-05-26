@@ -90,7 +90,7 @@
     <Compile Include="BinaryOperations\Multiplication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BinaryOperations\Subtraction.cs" />
+    <Compile Include="BinaryOperations\Substraction.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

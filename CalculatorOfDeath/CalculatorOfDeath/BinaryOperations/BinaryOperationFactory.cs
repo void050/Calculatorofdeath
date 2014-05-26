@@ -14,8 +14,8 @@ namespace CalculatorOfDeath.BinaryOperations
                     return new Division();
                 case "Multiplication":
                     return new Multiplication();
-                case "Subtraction":
-                    return new Subtraction();
+                case "Substraction":
+                    return new Substraction();
                 case "Mod":
                     return new Mod();
                 case "Percent":

@@ -32,7 +32,7 @@
             this.secondArgumentField = new System.Windows.Forms.TextBox();
             this.result = new System.Windows.Forms.TextBox();
             this.Adder = new System.Windows.Forms.Button();
-            this.Subtraction = new System.Windows.Forms.Button();
+            this.Substraction = new System.Windows.Forms.Button();
             this.Multiplication = new System.Windows.Forms.Button();
             this.Division = new System.Windows.Forms.Button();
             this.Factorial = new System.Windows.Forms.Button();
@@ -98,16 +98,16 @@
             this.Adder.UseVisualStyleBackColor = false;
             this.Adder.Click += new System.EventHandler(this.AdderClick);
             // 
-            // Subtraction
+            // Substraction
             // 
-            this.Subtraction.BackColor = System.Drawing.Color.Tan;
-            this.Subtraction.Location = new System.Drawing.Point(18, 117);
-            this.Subtraction.Name = "Subtraction";
-            this.Subtraction.Size = new System.Drawing.Size(50, 50);
-            this.Subtraction.TabIndex = 4;
-            this.Subtraction.Text = "-";
-            this.Subtraction.UseVisualStyleBackColor = false;
-            this.Subtraction.Click += new System.EventHandler(this.SubtractionClick);
+            this.Substraction.BackColor = System.Drawing.Color.Tan;
+            this.Substraction.Location = new System.Drawing.Point(19, 118);
+            this.Substraction.Name = "Substraction";
+            this.Substraction.Size = new System.Drawing.Size(50, 50);
+            this.Substraction.TabIndex = 4;
+            this.Substraction.Text = "-";
+            this.Substraction.UseVisualStyleBackColor = false;
+            this.Substraction.Click += new System.EventHandler(this.SubstractionClick);
             // 
             // Multiplication
             // 
@@ -487,7 +487,7 @@
             this.Controls.Add(this.Factorial);
             this.Controls.Add(this.Division);
             this.Controls.Add(this.Multiplication);
-            this.Controls.Add(this.Subtraction);
+            this.Controls.Add(this.Substraction);
             this.Controls.Add(this.Adder);
             this.Controls.Add(this.result);
             this.Controls.Add(this.secondArgumentField);
@@ -505,7 +505,7 @@
         private System.Windows.Forms.TextBox secondArgumentField;
         private System.Windows.Forms.TextBox result;
         private System.Windows.Forms.Button Adder;
-        private System.Windows.Forms.Button Subtraction;
+        private System.Windows.Forms.Button Substraction;
         private System.Windows.Forms.Button Multiplication;
         private System.Windows.Forms.Button Division;
         private System.Windows.Forms.Button Factorial;
