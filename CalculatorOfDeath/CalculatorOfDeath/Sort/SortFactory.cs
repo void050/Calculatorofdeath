@@ -18,6 +18,8 @@ namespace CalculatorOfDeath.Sort
                     return new CocktailSort();
                 case "NativeSort":
                     return new NativeSort();
+                case "RandomSort":
+                    return new RandomSort();
                 default:
                     throw new ArgumentException("Unknown calculator", "name");
             }

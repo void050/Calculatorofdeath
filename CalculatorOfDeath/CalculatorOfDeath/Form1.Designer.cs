@@ -64,6 +64,7 @@
             this.ArcSin = new System.Windows.Forms.Button();
             this.ArcCtg = new System.Windows.Forms.Button();
             this.GS = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // firstArgumentField
@@ -354,7 +355,7 @@
             // BubbleSort
             // 
             this.BubbleSort.BackColor = System.Drawing.Color.Gold;
-            this.BubbleSort.Location = new System.Drawing.Point(61, 283);
+            this.BubbleSort.Location = new System.Drawing.Point(18, 282);
             this.BubbleSort.Name = "BubbleSort";
             this.BubbleSort.Size = new System.Drawing.Size(120, 35);
             this.BubbleSort.TabIndex = 31;
@@ -365,7 +366,7 @@
             // CombSort
             // 
             this.CombSort.BackColor = System.Drawing.Color.Gold;
-            this.CombSort.Location = new System.Drawing.Point(187, 283);
+            this.CombSort.Location = new System.Drawing.Point(146, 282);
             this.CombSort.Name = "CombSort";
             this.CombSort.Size = new System.Drawing.Size(120, 35);
             this.CombSort.TabIndex = 32;
@@ -376,7 +377,7 @@
             // CocktailSort
             // 
             this.CocktailSort.BackColor = System.Drawing.Color.Gold;
-            this.CocktailSort.Location = new System.Drawing.Point(439, 283);
+            this.CocktailSort.Location = new System.Drawing.Point(398, 284);
             this.CocktailSort.Name = "CocktailSort";
             this.CocktailSort.Size = new System.Drawing.Size(120, 34);
             this.CocktailSort.TabIndex = 33;
@@ -387,7 +388,7 @@
             // NativeSort
             // 
             this.NativeSort.BackColor = System.Drawing.Color.Gold;
-            this.NativeSort.Location = new System.Drawing.Point(313, 283);
+            this.NativeSort.Location = new System.Drawing.Point(272, 282);
             this.NativeSort.Name = "NativeSort";
             this.NativeSort.Size = new System.Drawing.Size(120, 35);
             this.NativeSort.TabIndex = 34;
@@ -442,7 +443,7 @@
             // GS
             // 
             this.GS.BackColor = System.Drawing.Color.Gold;
-            this.GS.Location = new System.Drawing.Point(565, 283);
+            this.GS.Location = new System.Drawing.Point(524, 284);
             this.GS.Name = "GS";
             this.GS.Size = new System.Drawing.Size(116, 34);
             this.GS.TabIndex = 39;
@@ -450,12 +451,24 @@
             this.GS.UseVisualStyleBackColor = false;
             this.GS.Click += new System.EventHandler(this.GS_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Gold;
+            this.button1.Location = new System.Drawing.Point(644, 285);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 33);
+            this.button1.TabIndex = 40;
+            this.button1.Text = "Случайная";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Chocolate;
-            this.ClientSize = new System.Drawing.Size(746, 340);
+            this.ClientSize = new System.Drawing.Size(733, 340);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.GS);
             this.Controls.Add(this.ArcCtg);
             this.Controls.Add(this.ArcSin);
@@ -537,6 +550,7 @@
         private System.Windows.Forms.Button ArcSin;
         private System.Windows.Forms.Button ArcCtg;
         private System.Windows.Forms.Button GS;
+        private System.Windows.Forms.Button button1;
      }
 }
 

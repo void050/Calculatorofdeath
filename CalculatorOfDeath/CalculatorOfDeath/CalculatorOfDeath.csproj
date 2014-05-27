@@ -50,6 +50,7 @@
     <Compile Include="Sort\GnomeSort.cs" />
     <Compile Include="Sort\ISort.cs" />
     <Compile Include="Sort\NativeSort.cs" />
+    <Compile Include="Sort\RandomSort.cs" />
     <Compile Include="Sort\SortFactory.cs" />
     <Compile Include="UnaryOperations\Absolute.cs" />
     <Compile Include="BinaryOperations\Adder.cs" />

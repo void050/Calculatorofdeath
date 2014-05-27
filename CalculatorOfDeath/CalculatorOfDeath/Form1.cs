@@ -169,15 +169,18 @@ namespace CalculatorOfDeath
         {
             try
             {
-                string[] stringArray = firstArgumentField.Text.Split(' ');
+                string[] stringArray = firstArgumentField.Text.Trim().Split(' ');
                 int[] array = new int[stringArray.Length];
+
                 for (int i = 0; i < stringArray.Length; i++)
                 {
                     array[i] = Convert.ToInt32(stringArray[i]);
                 }
+
                 ISort sorter = SortFactory.CreateOperation(name);
                 int[] soresult = sorter.Sort(array);
                 string stringSoresult = string.Empty;
+
                 foreach (int element in soresult)
                 {
                     stringSoresult += element + " ";
@@ -233,6 +236,12 @@ namespace CalculatorOfDeath
         private void GS_Click(object sender, EventArgs e)
         {
             SortOne ("GS");
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            SortOne("RandomSort");
         }
 
     }
